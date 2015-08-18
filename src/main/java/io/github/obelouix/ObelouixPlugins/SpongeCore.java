@@ -46,9 +46,7 @@ public class SpongeCore {
 		          defaultConfig.createNewFile();
 		          config = configManager.load();
 
-		          config.getNode("version").setValue(1);
-		          config.getNode("doStuff").setValue(true);
-		          config.getNode("doMoreStuff").setValue(false);
+		          config.getNode("version").setValue(1.0);
 		          configManager.save(config);
 		      }
 		      config = configManager.load();
