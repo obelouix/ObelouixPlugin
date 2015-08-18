@@ -1,0 +1,9 @@
+*.MF
+*.class
+*.project
+*.classpath
+*.jar
+*.prefs
+*.bin
+*.lock
+*.properties
