@@ -43,8 +43,9 @@ dependencies {
 }
  jar {
     from "plugin.yml"
+    from "config.yml"
+    from "config.conf"
 }
-
 test {
     systemProperties 'property': 'value'
 }
