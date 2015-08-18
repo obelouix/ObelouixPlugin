@@ -12,6 +12,7 @@ public class SpigotCore extends JavaPlugin {
 	public void onEnable()
 	{
 		console.sendMessage("[ObelouixEss]Detected Minecraft Server API : Spigot");
+		saveDefaultConfig();
 	}
 	
 	@Override
