@@ -1,16 +1,17 @@
 package io.github.obelouix.ObelouixPlugins;
 
+import org.bukkit.Bukkit;
+import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.slf4j.Logger;
 
 public class SpigotCore extends JavaPlugin {
 	
-	private Logger logger;
+	ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
 	
 	@Override
 	public void onEnable()
 	{
-		logger.info("Detected Minecraft Server API : Spigot");
+		console.sendMessage("[ObelouixEss]Detected Minecraft Server API : Spigot");
 	}
 	
 	@Override
