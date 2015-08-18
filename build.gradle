@@ -13,8 +13,11 @@ sourceCompatibility = 1.5
 version = '1.0'
 jar {
     manifest {
-        attributes 'Implementation-Title': 'Gradle Quickstart',
-                   'Implementation-Version': version
+        attributes 'Plugin-Title' : 'Obelouix-Essential',
+                   'Version' : '1.0',
+                   'Compatible-API' : 'Sponge, Spigot',
+                   'Sponge-required-version' : '1.8',
+                   'Spigot-required-version' : '1.8'
     }
 }
 
@@ -44,6 +47,8 @@ dependencies {
  jar {
     from "plugin.yml"
     from "config.yml"
+    from "Aide pour le fichier de configuration.txt"
+    from "Help for ObelouixEssential Config file.txt"
 }
 test {
     systemProperties 'property': 'value'
