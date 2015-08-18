@@ -1,0 +1,5 @@
+name: ObelouixEssential
+description: Plugin with many functionnality
+main: io.github.obelouix.ObelouixPlugins.SpigotCore
+version: 1.0
+author: Obelouix
